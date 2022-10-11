@@ -1,0 +1,31 @@
+{
+  "name": "md3",
+  "description": "CSS components that implement Google's Material You (MD3).",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anton0kurilov/md3"
+  },
+  "keywords": [
+    "material you",
+    "md3",
+    "material design",
+    "material",
+    "google design"
+  ],
+  "author": "Anton Kurilov (kurilov.site)",
+  "bugs": {
+    "url": "https://github.com/anton0kurilov/md3/issues"
+  },
+  "homepage": "https://github.com/anton0kurilov/md3#readme",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "dev": "parcel public/index.html",
+    "build": "rm -rf dist/* && parcel build src/index.html"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  }
+}
