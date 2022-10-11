@@ -1,0 +1,68 @@
+// PRODUCT SANS
+
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Product Sans'),
+        url('../fonts/ProductSans-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Product Sans Light';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Product Sans Light'),
+        url('../fonts/ProductSans-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Product Sans Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Product Sans'),
+        url('../fonts/ProductSans-Bold.ttf') format('truetype');
+}
+
+// ROBOTO
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto'), url('../fonts/Roboto-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Light';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'),
+        url('../fonts/Roboto-Light.ttf') format('truetype');
+}
+
+// ROBOTO MONO
+
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'),
+        url('../fonts/RobotoMono-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Mono Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto'), url('../fonts/RobotoMono-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Mono Light';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'),
+        url('../fonts/RobotoMono-Light.ttf') format('truetype');
+}
