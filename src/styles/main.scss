@@ -1,4 +1,5 @@
 :root {
+    // fonts
     --fontProductRegular: 'Product Sans', sans-serif;
     --fontProductThin: 'Product Sans Thin', sans-serif;
     --fontProductBold: 'Product Sans Bold', sans-serif;
@@ -11,12 +12,48 @@
     --fontSizeHeadline: 32px;
     --fontSizeTitle: 22px;
     --fontSizeBody: 16px;
+    // shadows
     --shadowSmall: 0px 1px 2px rgba(0, 0, 0, 0.3),
         0px 1px 3px 1px rgba(0, 0, 0, 0.15);
     --shadowMedium: 0px 4px 8px 3px rgba(0, 0, 0, 0.15),
         0px 1px 3px rgba(0, 0, 0, 0.3);
     --shadowLarge: 0px 8px 12px 6px rgba(0, 0, 0, 0.15),
         0px 4px 4px rgba(0, 0, 0, 0.3);
+    // colors
+    --purplePrimaryColor: #6750a4;
+    --purpleSecondaryColor: #625b71;
+    --purpleBackgroundColor: #fffbfe;
+    --purpleContainerColor: #eaddff;
+    --darkPurplePrimaryColor: #d0bcff;
+    --darkPurpleSecondaryColor: #ccc2dc;
+    --darkPurpleBackgroundColor: #1c1b1f;
+    --darkPurpleContainerColor: #4f378b;
+    --greenPrimaryColor: #2d685d;
+    --greenSecondaryColor: #54615d;
+    --greenBackgroundColor: #fdfcfa;
+    --greenContainerColor: #b2eee1;
+    --darkGreenPrimaryColor: #97d2c5;
+    --darkGreenSecondaryColor: #bcc9c5;
+    --darkGreenBackgroundColor: #1a1c1b;
+    --darkGreenContainerColor: #0e5046;
+    --yellowPrimaryColor: #865300;
+    --yellowSecondaryColor: #74593a;
+    --yellowBackgroundColor: #fffbff;
+    --yellowContainerColor: #ffddb8;
+    --darkYellowPrimaryColor: #ffb961;
+    --darkYellowSecondaryColor: #e4c09a;
+    --darkYellowBackgroundColor: #1f1b16;
+    --darkYellowContainerColor: #653e00;
+    --pinkPrimaryColor: #b8006e;
+    --pinkSecondaryColor: #844e63;
+    --pinkBackgroundColor: #fffbff;
+    --pinkContainerColor: #ffd9e4;
+    --darkPinkPrimaryColor: #ffb0cd;
+    --darkPinkSecondaryColor: #f8b3cc;
+    --darkPinkBackgroundColor: #201a1c;
+    --darkPinkContainerColor: #8c0053;
+    --errorColor: #ba1a1a;
+    --darkErrorColor: #ffb4ab;
 }
 
 @import 'fonts';
