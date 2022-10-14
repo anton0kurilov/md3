@@ -56,4 +56,60 @@
     --darkErrorColor: #ffb4ab;
 }
 
+body.md3-purple {
+    --primaryColor: var(--purplePrimaryColor);
+    --secondaryColor: var(--purpleSecondaryColor);
+    --backgroundColor: var(--purpleBackgroundColor);
+    --containerColor: var(--purpleContainerColor);
+}
+
+body.md3-purple-dark {
+    --primaryColor: var(--darkPurplePrimaryColor);
+    --secondaryColor: var(--darkPurpleSecondaryColor);
+    --backgroundColor: var(--darkPurpleBackgroundColor);
+    --containerColor: var(--darkPurpleContainerColor);
+}
+
+body.md3-green {
+    --primaryColor: var(--greenPrimaryColor);
+    --secondaryColor: var(--greenSecondaryColor);
+    --backgroundColor: var(--greenBackgroundColor);
+    --containerColor: var(--greenContainerColor);
+}
+
+body.md3-green-dark {
+    --primaryColor: var(--darkGreenPrimaryColor);
+    --secondaryColor: var(--darkGreenSecondaryColor);
+    --backgroundColor: var(--darkGreenBackgroundColor);
+    --containerColor: var(--darkGreenContainerColor);
+}
+
+body.md3-yellow {
+    --primaryColor: var(--yellowPrimaryColor);
+    --secondaryColor: var(--yellowSecondaryColor);
+    --backgroundColor: var(--yellowBackgroundColor);
+    --containerColor: var(--yellowContainerColor);
+}
+
+body.md3-yellow-dark {
+    --primaryColor: var(--darkYellowPrimaryColor);
+    --secondaryColor: var(--darkYellowSecondaryColor);
+    --backgroundColor: var(--darkYellowBackgroundColor);
+    --containerColor: var(--darkYellowContainerColor);
+}
+
+body.md3-pink {
+    --primaryColor: var(--pinkPrimaryColor);
+    --secondaryColor: var(--pinkSecondaryColor);
+    --backgroundColor: var(--pinkBackgroundColor);
+    --containerColor: var(--pinkContainerColor);
+}
+
+body.md3-pink-dark {
+    --primaryColor: var(--darkPinkPrimaryColor);
+    --secondaryColor: var(--darkPinkSecondaryColor);
+    --backgroundColor: var(--darkPinkBackgroundColor);
+    --containerColor: var(--darkPinkContainerColor);
+}
+
 @import 'fonts';
