@@ -112,4 +112,11 @@ body.md3-pink-dark {
     --containerColor: var(--darkPinkContainerColor);
 }
 
+body {
+    font-family: var(--fontRobotoRegular);
+    font-size: var(--fontSizeBody);
+    box-sizing: border-box;
+}
+
 @import 'fonts';
+@import '/node_modules/normalize.css/normalize.css';
