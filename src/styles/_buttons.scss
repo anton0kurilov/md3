@@ -1,7 +1,7 @@
 .md3-btn {
     border: 0;
     font-family: var(--fontRobotoRegular);
-    padding: 10 25px;
+    padding: 10px 25px;
     border-radius: 25px;
     cursor: pointer;
     transition: all 0.5s;
@@ -9,5 +9,6 @@
     color: var(--onPrimaryColor);
     &:hover {
         opacity: 0.9;
+        box-shadow: var(--shadowSmall);
     }
 }
