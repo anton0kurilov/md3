@@ -6,6 +6,7 @@
     cursor: pointer;
     transition: all 0.5s;
     background-color: var(--primaryColor);
+    color: var(--onPrimaryColor);
     &:hover {
         opacity: 0.9;
     }

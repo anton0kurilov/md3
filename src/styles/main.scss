@@ -28,6 +28,8 @@
     --darkPurpleSecondaryColor: #ccc2dc;
     --darkPurpleBackgroundColor: #1c1b1f;
     --darkPurpleContainerColor: #4f378b;
+    --darkPurpleOnPrimaryColor: #381e72;
+    --darkPurPleOnSecondaryColor: #332d41;
     --greenPrimaryColor: #2d685d;
     --greenSecondaryColor: #54615d;
     --greenBackgroundColor: #fdfcfa;
@@ -36,6 +38,8 @@
     --darkGreenSecondaryColor: #bcc9c5;
     --darkGreenBackgroundColor: #1a1c1b;
     --darkGreenContainerColor: #0e5046;
+    --darkGreenOnPrimaryColor: #00372f;
+    --darkGreenOnSecondaryColor: #273330;
     --yellowPrimaryColor: #865300;
     --yellowSecondaryColor: #74593a;
     --yellowBackgroundColor: #fffbff;
@@ -44,6 +48,8 @@
     --darkYellowSecondaryColor: #e4c09a;
     --darkYellowBackgroundColor: #1f1b16;
     --darkYellowContainerColor: #653e00;
+    --darkYellowOnPrimaryColor: #472a00;
+    --darkYellowOnSecondaryColor: #3d2d1b;
     --pinkPrimaryColor: #b8006e;
     --pinkSecondaryColor: #844e63;
     --pinkBackgroundColor: #fffbff;
@@ -52,8 +58,11 @@
     --darkPinkSecondaryColor: #f8b3cc;
     --darkPinkBackgroundColor: #201a1c;
     --darkPinkContainerColor: #8c0053;
+    --darkPinkOnPrimaryColor: #640039;
+    --darkPinkOnSecondaryColor: #4c2334;
     --errorColor: #ba1a1a;
     --darkErrorColor: #ffb4ab;
+    --lightOnPrimaryColor: #ffffff;
 }
 
 body.md3-purple {
@@ -61,6 +70,7 @@ body.md3-purple {
     --secondaryColor: var(--purpleSecondaryColor);
     --backgroundColor: var(--purpleBackgroundColor);
     --containerColor: var(--purpleContainerColor);
+    --onPrimaryColor: var(--lightOnPrimaryColor);
 }
 
 body.md3-purple-dark {
@@ -68,6 +78,7 @@ body.md3-purple-dark {
     --secondaryColor: var(--darkPurpleSecondaryColor);
     --backgroundColor: var(--darkPurpleBackgroundColor);
     --containerColor: var(--darkPurpleContainerColor);
+    --onPrimaryColor: var(--darkPurpleOnPrimaryColor);
 }
 
 body.md3-green {
@@ -75,6 +86,7 @@ body.md3-green {
     --secondaryColor: var(--greenSecondaryColor);
     --backgroundColor: var(--greenBackgroundColor);
     --containerColor: var(--greenContainerColor);
+    --onPrimaryColor: var(--lightOnPrimaryColor);
 }
 
 body.md3-green-dark {
@@ -82,6 +94,7 @@ body.md3-green-dark {
     --secondaryColor: var(--darkGreenSecondaryColor);
     --backgroundColor: var(--darkGreenBackgroundColor);
     --containerColor: var(--darkGreenContainerColor);
+    --onPrimaryColor: var(--darkGreenOnPrimaryColor);
 }
 
 body.md3-yellow {
@@ -89,6 +102,7 @@ body.md3-yellow {
     --secondaryColor: var(--yellowSecondaryColor);
     --backgroundColor: var(--yellowBackgroundColor);
     --containerColor: var(--yellowContainerColor);
+    --onPrimaryColor: var(--lightOnPrimaryColor);
 }
 
 body.md3-yellow-dark {
@@ -96,6 +110,7 @@ body.md3-yellow-dark {
     --secondaryColor: var(--darkYellowSecondaryColor);
     --backgroundColor: var(--darkYellowBackgroundColor);
     --containerColor: var(--darkYellowContainerColor);
+    --onPrimaryColor: var(--darkYellowOnPrimaryColor);
 }
 
 body.md3-pink {
@@ -103,6 +118,7 @@ body.md3-pink {
     --secondaryColor: var(--pinkSecondaryColor);
     --backgroundColor: var(--pinkBackgroundColor);
     --containerColor: var(--pinkContainerColor);
+    --onPrimaryColor: var(--lightOnPrimaryColor);
 }
 
 body.md3-pink-dark {
@@ -110,12 +126,14 @@ body.md3-pink-dark {
     --secondaryColor: var(--darkPinkSecondaryColor);
     --backgroundColor: var(--darkPinkBackgroundColor);
     --containerColor: var(--darkPinkContainerColor);
+    --onPrimaryColor: var(--darkPinkOnPrimaryColor);
 }
 
 body {
     font-family: var(--fontRobotoRegular);
     font-size: var(--fontSizeBody);
     box-sizing: border-box;
+    background-color: var(--backgroundColor);
 }
 
 @import 'fonts';
