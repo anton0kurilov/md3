@@ -1,14 +1,24 @@
-.md3-btn {
+.md3-btn,
+.md3-btn-disabled {
     border: 0;
     font-family: var(--fontRobotoRegular);
     padding: 10px 25px;
-    border-radius: 25px;
+    border-radius: 100px;
     cursor: pointer;
     transition: all 0.5s;
+    font-weight: 500;
+}
+
+.md3-btn {
     background-color: var(--primaryColor);
     color: var(--onPrimaryColor);
     &:hover {
         opacity: 0.9;
         box-shadow: var(--shadowSmall);
     }
+}
+
+.md3-btn-disabled {
+    background-color: var(--disabledBackgroundColor);
+    color: var(--disabledColor);
 }

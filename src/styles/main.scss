@@ -63,6 +63,10 @@
     --errorColor: #ba1a1a;
     --darkErrorColor: #ffb4ab;
     --lightOnPrimaryColor: #ffffff;
+    --disabledColor: rgba(28, 27, 31, 0.38);
+    --disabledBackgroundColor: rgba(31, 31, 31, 0.12);
+    --darkDisabledColor: rgba(230, 225, 229, 0.38);
+    --darkDisabledBackgroundColor: rgba(227, 227, 227, 0.12);
 }
 
 body.md3-purple {
@@ -79,6 +83,8 @@ body.md3-purple-dark {
     --backgroundColor: var(--darkPurpleBackgroundColor);
     --containerColor: var(--darkPurpleContainerColor);
     --onPrimaryColor: var(--darkPurpleOnPrimaryColor);
+    --disabledColor: var(--darkDisabledColor);
+    --disabledBackgroundColor: var(--darkDisabledBackgroundColor);
 }
 
 body.md3-green {
@@ -95,6 +101,8 @@ body.md3-green-dark {
     --backgroundColor: var(--darkGreenBackgroundColor);
     --containerColor: var(--darkGreenContainerColor);
     --onPrimaryColor: var(--darkGreenOnPrimaryColor);
+    --disabledColor: var(--darkDisabledColor);
+    --disabledBackgroundColor: var(--darkDisabledBackgroundColor);
 }
 
 body.md3-yellow {
@@ -111,6 +119,8 @@ body.md3-yellow-dark {
     --backgroundColor: var(--darkYellowBackgroundColor);
     --containerColor: var(--darkYellowContainerColor);
     --onPrimaryColor: var(--darkYellowOnPrimaryColor);
+    --disabledColor: var(--darkDisabledColor);
+    --disabledBackgroundColor: var(--darkDisabledBackgroundColor);
 }
 
 body.md3-pink {
@@ -127,6 +137,8 @@ body.md3-pink-dark {
     --backgroundColor: var(--darkPinkBackgroundColor);
     --containerColor: var(--darkPinkContainerColor);
     --onPrimaryColor: var(--darkPinkOnPrimaryColor);
+    --disabledColor: var(--darkDisabledColor);
+    --disabledBackgroundColor: var(--darkDisabledBackgroundColor);
 }
 
 body {
