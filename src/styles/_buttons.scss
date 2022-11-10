@@ -44,7 +44,7 @@
 
 .md3-btn-otl,
 .md3-btn-otl-wicon {
-    border: 1px solid var(--primaryColor);
+    border: 2px solid var(--primaryColor);
     color: var(--primaryColor);
     background-color: transparent;
     &:hover {
@@ -54,7 +54,7 @@
 
 .md3-btn-otl-dis,
 .md3-btn-otl-wicon-dis {
-    border: 1px solid var(--disBackgroundColor);
+    border: 2px solid var(--disBackgroundColor);
     color: var(--disColor);
     background-color: transparent;
 }
