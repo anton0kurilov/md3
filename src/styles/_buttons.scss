@@ -40,4 +40,17 @@
         color: var(--disColor);
         background-color: transparent;
     }
+    &.texted {
+        background-color: transparent;
+        color: var(--primaryColor);
+        &:hover {
+            background-color: var(--containerColor);
+        }
+        &.disabled {
+            color: var(--disColor);
+            &:hover {
+                background: transparent;
+            }
+        }
+    }
 }
