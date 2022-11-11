@@ -34,11 +34,11 @@
         &:hover {
             background-color: var(--containerColor);
         }
-    }
-    &.outlined.disabled {
-        border: 2px solid var(--disBackgroundColor);
-        color: var(--disColor);
-        background-color: transparent;
+        &.disabled {
+            border: 2px solid var(--disBackgroundColor);
+            color: var(--disColor);
+            background-color: transparent;
+        }
     }
     &.texted {
         background-color: transparent;
