@@ -18,10 +18,7 @@
         background-color: var(--disBackgroundColor);
         color: var(--disColor);
         cursor: default;
-        &:hover {
-            opacity: 1;
-            box-shadow: none;
-        }
+        pointer-events: none;
     }
     &.with-icon {
         padding-left: 19px;
@@ -51,9 +48,7 @@
         }
         &.disabled {
             color: var(--disColor);
-            &:hover {
-                background: transparent;
-            }
+            pointer-events: none;
         }
     }
 }
