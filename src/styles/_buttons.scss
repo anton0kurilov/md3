@@ -1,11 +1,10 @@
 .md3-btn {
     border: 0;
-    font-family: var(--fontRobotoRegular);
+    font-family: var(--fontRobotoMedium);
     padding: 10px 24px;
     border-radius: 100px;
     cursor: pointer;
     transition: all 0.5s;
-    font-weight: 500;
     text-decoration: none;
     &.filled {
         background-color: var(--primaryColor);

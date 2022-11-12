@@ -43,6 +43,13 @@
     src: local('Roboto Light'),
         url('../fonts/Roboto-Light.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Roboto Medium';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Medium'),
+        url('../fonts/Roboto-Medium.ttf') format('truetype');
+}
 
 // ROBOTO MONO
 
@@ -65,6 +72,13 @@
     font-weight: 300;
     src: local('Roboto Light'),
         url('../fonts/RobotoMono-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Mono Medium';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Medium'),
+        url('../fonts/RobotoMono-Medium.ttf') format('truetype');
 }
 
 // MATERIAL SYMBOLS
@@ -89,6 +103,6 @@
     white-space: nowrap;
     word-wrap: normal;
     direction: ltr;
-    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;
 }
