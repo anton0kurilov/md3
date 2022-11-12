@@ -19,6 +19,10 @@
         background-color: var(--disBackgroundColor);
         color: var(--disColor);
         cursor: default;
+        &:hover {
+            opacity: 1;
+            box-shadow: none;
+        }
     }
     &.with-icon {
         padding-left: 19px;
