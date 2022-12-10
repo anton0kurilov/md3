@@ -51,4 +51,10 @@
             pointer-events: none;
         }
     }
+    &.animated {
+        &:hover {
+            border-radius: 10px;
+            box-shadow: none;
+        }
+    }
 }
