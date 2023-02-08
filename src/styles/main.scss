@@ -67,8 +67,8 @@
     --lightOnPrimaryColor: #ffffff;
     --disColor: rgba(28, 27, 31, 0.38);
     --disBackgroundColor: rgba(31, 31, 31, 0.12);
-    --darkdisColor: rgba(230, 225, 229, 0.38);
-    --darkdisBackgroundColor: rgba(227, 227, 227, 0.12);
+    --darkDisColor: rgba(230, 225, 229, 0.38);
+    --darkDisBackgroundColor: rgba(227, 227, 227, 0.12);
 }
 
 body.md3-purple {
@@ -85,8 +85,8 @@ body.md3-purple-dark {
     --backgroundColor: var(--darkPurpleBackgroundColor);
     --containerColor: var(--darkPurpleContainerColor);
     --onPrimaryColor: var(--darkPurpleOnPrimaryColor);
-    --disColor: var(--darkdisColor);
-    --disBackgroundColor: var(--darkdisBackgroundColor);
+    --disColor: var(--darkDisColor);
+    --disBackgroundColor: var(--darkDisBackgroundColor);
 }
 
 body.md3-green {
@@ -103,8 +103,8 @@ body.md3-green-dark {
     --backgroundColor: var(--darkGreenBackgroundColor);
     --containerColor: var(--darkGreenContainerColor);
     --onPrimaryColor: var(--darkGreenOnPrimaryColor);
-    --disColor: var(--darkdisColor);
-    --disBackgroundColor: var(--darkdisBackgroundColor);
+    --disColor: var(--darkDisColor);
+    --disBackgroundColor: var(--darkDisBackgroundColor);
 }
 
 body.md3-yellow {
@@ -121,8 +121,8 @@ body.md3-yellow-dark {
     --backgroundColor: var(--darkYellowBackgroundColor);
     --containerColor: var(--darkYellowContainerColor);
     --onPrimaryColor: var(--darkYellowOnPrimaryColor);
-    --disColor: var(--darkdisColor);
-    --disBackgroundColor: var(--darkdisBackgroundColor);
+    --disColor: var(--darkDisColor);
+    --disBackgroundColor: var(--darkDisBackgroundColor);
 }
 
 body.md3-pink {
@@ -139,8 +139,8 @@ body.md3-pink-dark {
     --backgroundColor: var(--darkPinkBackgroundColor);
     --containerColor: var(--darkPinkContainerColor);
     --onPrimaryColor: var(--darkPinkOnPrimaryColor);
-    --disColor: var(--darkdisColor);
-    --disBackgroundColor: var(--darkdisBackgroundColor);
+    --disColor: var(--darkDisColor);
+    --disBackgroundColor: var(--darkDisBackgroundColor);
 }
 
 body {
